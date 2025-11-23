@@ -70,7 +70,7 @@ body {
 
 .site-footer {
   margin-top: 120px;
-  color: #6b7280;
+  color: grey;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -92,7 +92,7 @@ body {
   border:0.5px solid gray;
   float: left; 
   clear: both;
-  z-index: 3;
+  z-index: 10;
 }
 
 .balloon2-left:before {
@@ -131,7 +131,7 @@ body {
   display: inline-block;
   float: right; 
   clear: both; 
-  z-index: 3;
+  z-index: 10;
 }
 
 .balloon2-right:before {
